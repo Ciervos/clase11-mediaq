@@ -1,0 +1,65 @@
+/* mediaquery hecho con absolute, no es lo ideal */
+body
+{
+    background: violet;
+}
+
+article{
+border: 2px dotted snow;
+width: 300px;
+height: 200px;
+padding: 10px;
+margin: 10px;
+color: LavenderBlush;
+position: absolute;
+top: 10px;
+}
+
+.b {
+left: 350px;
+}
+
+.c
+{
+left: 700px;    
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+article{
+    height: 180px;
+}    
+ .a{
+top: 10px;
+left: 40px;
+}
+.b{
+top: 230px; 
+left: 40px;
+} 
+.c{
+top: 450px;
+left: 40px;
+}
+
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) /*and (orientation: landscape)*/ {
+
+    .a{
+    
+        left: 40px;
+        top: 10px;
+        }
+        .b{
+            left: 400px;
+            top: 10px;
+   } 
+   .c{
+  left: 40px;
+  width: 670px;
+  top: 300px;
+
+}
+}
+

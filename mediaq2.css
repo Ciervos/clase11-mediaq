@@ -1,0 +1,48 @@
+/*uso display inline-block*/
+
+body
+{
+background: violet;
+}
+
+article{
+border: 2px dotted snow;
+width: 230px;
+padding: 10px;
+margin: 0px 10px 10px 10px;
+color: LavenderBlush;
+transition: width 1s linear;
+
+}
+
+@media (min-width: 600px)
+{
+.a{
+    display: inline-block;
+
+}
+.b{
+    display: inline-block;
+    
+}
+.c
+{display: block;
+width: 480px;
+}
+
+}
+
+@media (min-width: 1024px)
+{
+.a{
+    display: inline-block;
+
+}
+.b{
+    display: inline-block;
+    
+}
+.c
+{display: inline-block;
+width: 230px;}
+}
